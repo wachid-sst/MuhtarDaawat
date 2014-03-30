@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:padding="6dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_bab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/text_bab" />
+
+                <TextView
+                    android:id="@+id/text_doa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_toRightOf="@+id/text_bab"
+                    android:text="@string/text_doa" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_hadist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/text_hadist"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/title_riwayat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_riwayat"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_riwayat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_riwayat" />
+
+            <TextView
+                android:id="@+id/title_halaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_halaman"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_halaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_halaman" />
+
+            <TextView
+                android:id="@+id/title_arti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_arti"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_arti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_arti" />
+
+            <TextView
+                android:id="@+id/title_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_keterangan"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_keterangan" />
+        </LinearLayout>
+
+    </ScrollView>
+         
+
+     
+ 

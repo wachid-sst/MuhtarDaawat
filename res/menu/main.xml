@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wachid.coba.MainActivity" >
+
+    <!-- Search Settings -->
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never"/>
+    
+    
+    
+    <!-- Search About -->
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+    
+    <item android:id="@+id/action_share"
+          android:title="@string/share"
+          android:icon="@drawable/ic_action_share"
+          app:showAsAction="ifRoom"
+          app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+          />
+    
+    <!-- Search Widget -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          app:showAsAction="ifRoom|collapseActionView"
+          app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+</menu>
